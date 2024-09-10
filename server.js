@@ -5,4 +5,5 @@ console.log(user);
 console.log(user.username);
 fs.appendFile('greeting.txt','hi harsh \n',()=>{
     console.log("file created");
-})
+}); 
+console.log(os);
